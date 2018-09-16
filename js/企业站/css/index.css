@@ -1,0 +1,624 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-27 09:09:35
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-30 15:34:24
+*/
+/* 导航栏开始 */
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: white;	
+	border: 1px solid #e6e6e6;
+}
+
+.container{
+	width:100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0;
+}
+nav .list-title{
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	cursor: pointer;
+	margin-left: 15px;
+}
+nav .list-text{
+	display: none;
+}
+nav .list-title span{
+	color: #333;
+	font-weight: 500;
+	font-size: 18px;
+}
+nav .list-title img{
+	width: 43px;
+	height: 45px;
+	margin:0 2px 0 8px;
+	margin-bottom: 6px;
+}
+nav input{
+	width: 301px;
+	height: 35px;
+	border-radius:17.5px;
+	border: 1px solid #c3c3c3;
+	outline: none;
+	padding-left: 18px;
+	display: none;
+}
+input::-webkit-input-placeholder { 
+	color: #999; 
+	font-size: 14px;
+} 
+nav .icon-sousuo{
+	display: none;
+}
+nav .list-game{
+	width: 86px;
+	font-size: 15px;
+	color: #888;
+	border-left: 1px solid #e6e6e6;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-left:24px;
+	cursor: pointer;
+	margin-left: calc(100% - 263px);
+	margin-right: 15px;
+}
+nav .list-game .icon-grey{
+	color: #FF6600;
+}
+nav .icon-liebiao1{
+	color: #888;
+	font-size: 15px;
+}
+nav .list-person{
+	width: 120px;
+	height: 80px;
+	padding-left: 34px;
+	line-height: 80px;
+	display: none;
+	cursor: pointer;
+}
+nav .list-person .icon-ren1{
+	font-size: 36px;
+	color: #D5D5D5;
+}
+/* 导航栏结束 */
+/* 轮播图开始 */
+.banner{
+	width: 100%;
+	height: 235px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+.image{
+	display: block;
+	width: 100%;
+	height: 235px;
+	background-image: url('../img/zzwg1920.jpg');
+	background-position: center top;
+	background-size: auto 235px;
+	background-repeat: no-repeat;
+}
+.image1{
+	display: block;
+	width: 100%;
+	height: 235px;
+	background-image: url('../img/md1920.jpg');
+	background-position: center top;
+	background-size: auto 235px;
+	background-repeat: no-repeat;
+}
+.image2{
+	display: block;
+	width: 100%;
+	height: 235px;
+	background-image: url('../img/roatm1920.jpg');
+	background-position: center top;
+	background-size: auto 235px;
+	background-repeat: no-repeat;
+}
+.image3{
+	display: block;
+	width: 100%;
+	height: 235px;
+	background-image: url('../img/iwld08141920.jpg');
+	background-position: center top;
+	background-size: auto 235px;
+	background-repeat: no-repeat;
+}
+/* 轮播图结束 */
+/* 第一行内容开始 */
+.box{
+	margin-top: 40px;
+	cursor: pointer;
+}
+.box .pic{
+	background-image: url('../img/romczx.jpg');
+	width: 100%;
+  	height: 335px;
+  	background-size: cover;
+   	background-position: center;
+}
+.box .text h4{
+	font-size: 14px;
+}
+.box .text p{
+	font-size: 12px;
+	color: #BDBDBD;
+}
+.box .txt{
+	display: none;
+}
+/* 第一行内容结束 */
+/* 游戏解析开始 */
+.contact ul li{
+	 cursor: pointer;
+}
+.contact ul li .pic{
+	width: 100%;
+	height: 334px;
+	background-image: url('../img/1.jpg');
+	background-size: cover;
+    background-position: center top;
+
+}
+.contact ul li:nth-child(2) .pic{
+	background-image: url('../img/2.jpg');
+}
+.contact ul li:nth-child(3) .pic{
+	background-image: url('../img/3.jpg');
+}
+.contact ul li:nth-child(4) .pic{
+	background-image: url('../img/4.jpg');
+}
+.contact ul li:nth-child(5) .pic{
+	background-image: url('../img/5.jpg');
+}
+.contact ul li:nth-child(6) .pic{
+	background-image: url('../img/6.jpg');
+}
+.contact ul li:nth-child(7) .pic{
+	background-image: url('../img/7.jpg');
+}
+.contact ul li:nth-child(8) .pic{
+	background-image: url('../img/8.jpg');
+}
+.contact ul li:nth-child(9) .pic{
+	background-image: url('../img/9.jpg');
+}
+.contact ul li:nth-child(10) .pic{
+	background-image: url('../img/10.jpg');
+}
+.contact ul li:nth-child(11) .pic{
+	background-image: url('../img/11.jpg');
+}
+.contact ul li:nth-child(12) .pic{
+	background-image: url('../img/12.jpg');
+}
+.contact ul li h4{
+	font-size: 14px;
+	color: #0f0f0f;
+}
+.contact ul li:hover h4{
+	color:#FF6600;
+}
+.contact ul li p{
+	font-size: 12px;
+	color: #BDBDBD;
+}
+.contact ul li{
+	margin-top: 40px;
+}
+.more{
+	width:90px;
+	height: 42px;
+	margin: 95px auto;
+	border: 1px solid #E8E8E8;
+	border-radius: 4px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 42px;
+	color: #888;
+	font-weight: 500;
+}
+/* 游戏解析结束 */
+/* 小屏底部开始 */
+.footer{
+	width: 100%;
+	height: 208px;
+	background-color: #484848;
+}
+.footer .container{
+	padding: 0 25px;
+	flex-direction: column;
+}
+.footer .container .text{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #666666;
+	padding: 0 32px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 5px;
+
+}
+.footer .text a{
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #999;
+}
+.footer p a{
+	color: #999999;
+}
+.footer p a img{
+	margin-right: 4px;
+	margin-bottom: 2px;
+}
+.footer p {
+	height: 17px;
+	line-height: 17px;
+	text-align: center;
+	font-size: 13px;
+	color: #999;
+}
+.footer p:nth-child(3){
+	margin-bottom: 25px;
+}
+.footer p span{
+	display: none;
+}
+/* 小屏底部结束 */
+/* 中屏大屏底部开始 */
+.bottom{
+	display: none;
+	width: 100%;
+	background-color: #484848;
+}
+.bottom .container{
+	flex-direction: column;
+}
+.bottom .head{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 53px;
+	margin-bottom: 42px;
+}
+.bottom .head dl{
+	width: 187px; 
+}
+.bottom .head dl:nth-child(4){
+	width: 375px;
+	margin-left: calc(100% - 936px);
+}
+.bottom .head dl dt{
+	font-size: 15px;
+	color: #DADADA;
+	margin-bottom: 27px;
+}
+.bottom .head dl dd p{
+	margin-bottom: 2px;
+}
+.bottom .head dl dd a{
+	color: #999999;
+	font-size: 14px;
+}
+.bottom .foot{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 24px;
+}
+.bottom .foot .left{
+	width: calc(100% - 400px);
+}
+.bottom .foot .left p{
+	color: #999999;
+	font-size: 14px;
+}
+.bottom .foot .left span{
+	display: none;
+}
+.bottom .foot .left p a{
+	color: #999999;
+	font-size: 14px;
+}
+.bottom .foot .right{
+	display: flex;
+	flex-direction: row;
+}
+.bottom .foot .right i{
+	font-size: 42px;
+	color: #999;
+	margin-left: 24px;
+	cursor: pointer;
+}
+/* 中屏大屏底部结束 */
+.back .icon-fanhuidingbu{/*  返回顶部  */
+	position: fixed;
+	bottom: 50px;
+	right: 10px;
+	font-size: 50px;
+	color: #ccc;
+}
+@media screen and (min-width:768px){
+	/* 导航栏开始 */
+	nav{
+		height: 80px;
+	}
+	.container{
+		margin: 0 auto;
+		width: 750px;
+		position: relative;
+		justify-content: space-between;
+	}
+	nav .list-text:nth-child(3){
+		color: #f60;
+	}
+	nav .icon-sousuo{
+		font-size: 16px;
+		position: absolute;
+		right: 175px;
+		cursor: pointer;
+		display: inline;
+	}
+	nav .icon-liebiao1{
+		display: none;
+	}
+	nav .list-game{
+		display: none;
+	}
+	nav .list-person{
+		display: inline;
+	}
+	nav .list-title span{
+		font-size: 16px;
+	}
+	nav .list-text{
+		font-size: 13px;
+		color: #333;
+		display:inline;
+	}
+	nav input{
+		width: 151px;
+		display: inline;
+		margin-left: 24px;
+	}
+	nav .list-title img{
+		width: 43px;
+		height: 45px;
+	}
+	/* 导航栏结束 */
+	/* 轮播图开始 */
+	.banner{
+		width: 100%;
+		height: 470px;
+	}
+	.image{
+		width: 100%;
+		height: 470px;
+		background-image: url('../img/zzwg992.jpg');
+		background-position: center top;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+	}
+	.image1{
+		display: block;
+		width: 100%;
+		height: 470px;
+		background-image: url('../img/md992.jpg');
+		background-position: center top;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+	}
+	.image2{
+		display: block;
+		width: 100%;
+		height: 470px;
+		background-image: url('../img/roatm992.jpg');
+		background-position: center top;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+	}
+	.image3{
+		display: block;
+		width: 100%;
+		height: 470px;
+		background-image: url('../img/iwld0814992.jpg');
+		background-position: center top;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+	}
+	/* 轮播图结束 */
+	/* 游戏解析开始 */
+	.contact ul li{
+		height: 254px;
+	}
+	.contact ul li .pic{
+		height: 190px;
+	}
+	/* 游戏解析结束 */
+	/* 小屏底部开始 */
+	.footer p:nth-child(6){
+		display: none;
+	}
+	.footer p span{
+		display: inline;
+	}
+	/* 小屏底部结束 */
+	
+}
+@media screen and (min-width: 992px){
+	/* 导航栏结束 */
+	.container{
+		width: 970px;
+	}
+	nav .list-title span{
+		font-size: 20px;
+	}
+	nav .list-title img{
+		width: 55px;
+		height: 57px;
+	}
+	nav .list-text{
+		font-size: 16px;
+	}
+	nav .icon-sousuo{
+		position: absolute;
+		right: 200px;
+	}
+	
+	/* 导航栏开始 */
+	/* 轮播图开始 */
+	.banner{
+		width: 100%;
+		height: 470px;
+		margin: 0 auto;
+		padding: 0;
+		position: relative;
+	}
+	.image{
+		display: block;
+		width: 100%;
+		height: 470px;
+		background-image: url('../img/zzwg1920.jpg');
+		background-position: center top;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+	}
+	.image1{
+		display: block;
+		width: 100%;
+		height: 470px;
+		background-image: url('../img/md1920.jpg');
+		background-position: center top;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+	}
+   .image2{
+	   display: block;
+	   width: 100%;
+	   height: 470px;
+		background-image: url('../img/roatm1920.jpg');
+	   background-position: center top;
+	   background-size: auto 100%;
+	   background-repeat: no-repeat;
+	}
+	.image3{
+		display: block;
+		width: 100%;
+		height: 470px;
+		background-image: url('../img/iwld08141920.jpg');
+		background-position: center top;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+	}
+	/* 轮播图结束 */
+	/* 第一行内容开始 */
+	.box .pic{
+		height: 320px;
+	}
+	/* 第一行内容结束 */
+	/* 游戏解析开始 */
+	.contact ul li{
+		height: 308px;
+	}
+	.contact ul li .pic{
+		height: 240px;
+	}
+	/* 游戏解析结束 */
+	/* 小屏底部开始 */
+	.footer{
+		display: none;
+	}
+	/* 小屏底部结束 */
+	.bottom{
+		display: block;
+	}
+}
+@media screen and (min-width: 1200px){
+	/* 导航栏开始 */
+	.container{
+		width: 1170px;
+		
+	}
+	nav input{
+		width: 301px;
+	}
+	nav .icon-sousuo{
+		position: absolute;
+		right: 225px;
+		z-index: 1;
+	}
+	/* 导航栏结束 */
+
+	/* 第一行内容开始 */
+	.box .main .text{
+		display: none;
+	}
+	.box .main{
+		padding: 0;
+	}
+	.box .txt{
+		/* width: 100%; */
+		height: 320px;
+		display: inline;
+		border: 1px solid #E6E6E6;
+		padding: 40px 44px;
+	}
+	.box .txt h4{
+		font-size: 18px;
+	}
+	.box .txt p{
+		font-size: 12px;
+		color: #BDBDBD;
+	}
+	.box .txt h3{
+		color: #5C5C5C;
+		font-size: 14px;
+		margin-top: 54px;
+	}
+	.box .txt i{
+		font-size: 14px;
+		color: #BDBDBD;
+		display: block;
+		margin-top: 72px;
+		float: right;
+	}
+	/* 第一行内容结束 */
+	/* 游戏解析开始 */
+	.contact ul li{
+		height: 256px;
+	}
+	.contact ul li .pic{
+		height: 190px;
+	}
+	.contact .container{
+		width: 1200px;
+	}
+	/* 游戏解析结束 */
+	.bottom .foot .left span{
+		display: inline;
+	}
+	.bottom .foot .left p:nth-child(4){
+		display: none;
+	}
+	.bottom .foot .left{
+		width: calc(100% - 415px);
+	}
+	.bottom .foot .right{
+		margin-left: 15px;
+	}
+}

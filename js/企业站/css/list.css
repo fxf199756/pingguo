@@ -1,0 +1,491 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-27 09:09:35
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-30 15:35:37
+*/
+/* 导航栏开始 */
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: white;	
+	border: 1px solid #e6e6e6;
+}
+.container{
+	width:100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+}
+nav .container{
+	align-items: center;
+}
+nav .list-title{
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	cursor: pointer;
+	margin-left: 15px;
+}
+nav .list-text{
+	display: none;
+}
+nav .list-title span{
+	font-size: 14px;
+	color: #333;
+	font-weight: 540;
+	font-size: 18px;
+}
+nav .list-title img{
+	width: 43px;
+	height: 45px;
+	margin:0 2px 0 8px;
+	margin-bottom: 6px;
+}
+nav input{
+	width: 301px;
+	height: 35px;
+	border-radius:17.5px;
+	border: 1px solid #c3c3c3;
+	outline: none;
+	padding-left: 18px;
+	display: none;
+}
+input::-webkit-input-placeholder { 
+	color: #999; 
+	font-size: 14px;
+} 
+nav .icon-sousuo{
+	display: none;
+}
+nav .list-game{
+	width: 86px;
+	font-size: 15px;
+	color: #888;
+	border-left: 1px solid #e6e6e6;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-left:24px;
+	cursor: pointer;
+	margin-left: calc(100% - 263px);
+	margin-right: 15px;
+}
+nav .list-game .icon-grey{
+	color: #FF6600;
+}
+nav .icon-liebiao1{
+	color: #888;
+	font-size: 15px;
+}
+nav .list-person{
+	width: 120px;
+	height: 80px;
+	padding-left: 34px;
+	line-height: 80px;
+	display: none;
+	cursor: pointer;
+}
+nav .list-person .icon-ren1{
+	font-size: 36px;
+	color: #D5D5D5;
+}
+/* 导航栏结束 */
+/* 导图开始 */
+.picture{
+	width: 100%;
+	height: 105px;
+	background: url('../img/game-product-banner-1x.jpg');
+	background-position: center top;
+    background-size: auto 100%;
+}
+/* 导图结束 */
+/* 热门手游开始 */
+.hot{
+	
+	width: 100%;
+	margin-top: 65px;
+	margin-bottom: 65px;
+}
+.hot .container{
+	display: flex;
+	flex-direction: column;
+}
+.hot .title{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-bottom: 1px solid #E6E6E6;
+}
+.hot .title .block{
+	width: 4px;
+	height: 20px;
+	margin-right: 5px;
+	background: #f60;
+}
+.hot .title span{
+	font-size: 20px;
+	color: #5C5C5C;
+}
+.hot .main ul{
+	align-content:
+}
+.hot .main ul li{
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+	
+}
+.hot .main ul li img{
+	width: 85px;
+	height: 85px;
+	margin-left: 25px;
+	cursor: pointer;
+}
+.hot .main ul li h3{
+	font-size: 16px;
+	color: #333;
+	margin-top: 14px;
+	cursor: pointer;
+}
+.hot .main ul li p{
+	font-size: 14px;
+	color: #b2b2b2;
+	margin-left: 5px;
+}
+/* 热门手游结束 */
+/* 热门端游开始 */
+.game .container{
+	display: flex;
+	flex-direction: column;
+}
+.game .title{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-bottom: 1px solid #E6E6E6;
+}
+.game .title .block{
+	width: 4px;
+	height: 20px;
+	margin-right: 5px;
+	background: #f60;
+}
+.game .title span{
+	font-size: 20px;
+	color: #5C5C5C;
+}
+.game .main ul{
+	align-content:
+}
+.game .main ul li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 40px;
+	cursor: pointer;
+}
+.game .main ul li img{
+	width: 200px;
+	height: 200px;
+}
+.game .main ul li h3{
+	font-size: 16px;
+	color: #333;
+	margin-top: 14px;
+}
+/* 热门端游结束 */
+/*  热门页游开始  */
+.page{
+	margin: 65px 0;
+}
+.page .container{
+	display: flex;
+	flex-direction: column;
+}
+.page .title{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-bottom: 1px solid #E6E6E6;
+}
+.page .title .block{
+	width: 4px;
+	height: 20px;
+	margin-right: 5px;
+	background: #f60;
+}
+.page .title span{
+	font-size: 20px;
+	color: #5C5C5C;
+}
+.page .main ul li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	cursor: pointer;
+}
+.page .main ul li img{
+	width: 587px;
+	height: 317px;
+	margin-top: 40px;
+}
+/*  热门页游结束  */
+/* 小屏底部开始 */
+.footer{
+	width: 100%;
+	height: 208px;
+	background-color: #484848;
+}
+.footer .container{
+	padding: 0 25px;
+	flex-direction: column;
+}
+.footer .container .text{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #666666;
+	padding: 0 32px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 5px;
+
+}
+.footer .text a{
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #999;
+}
+.footer p a{
+	color: #999999;
+}
+.footer p a img{
+	margin-right: 4px;
+	margin-bottom: 2px;
+}
+.footer p {
+	height: 17px;
+	line-height: 17px;
+	text-align: center;
+	font-size: 13px;
+	color: #999;
+}
+.footer p:nth-child(3){
+	margin-bottom: 25px;
+}
+.footer p span{
+	display: none;
+}
+/* 小屏底部结束 */
+/* 中屏大屏底部开始 */
+.bottom{
+	display: none;
+	width: 100%;
+	background-color: #484848;
+}
+.bottom .container{
+	flex-direction: column;
+}
+.bottom .head{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 53px;
+	margin-bottom: 42px;
+}
+.bottom .head dl{
+	width: 200px; 
+}
+.bottom .head dl dt{
+	font-size: 15px;
+	color: #DADADA;
+	margin-bottom: 27px;
+}
+.bottom .head dl dd p{
+	margin-bottom: 2px;
+}
+.bottom .head dl dd a{
+	color: #999999;
+	font-size: 14px;
+}
+.bottom .head dl:nth-child(4){
+	width: 444px;
+}
+.bottom .head dl:nth-child(4) dd{
+	color: #999999;
+	font-size: 14px;
+}
+.bottom .head dl dd span{
+	display: none;
+}
+.bottom .head dl dd p a{
+	color: #999999;
+	font-size: 14px;
+}
+.bottom .head dl dt i{
+	font-size: 42px;
+	color: #999;
+	margin-right: 24px;
+	font-weight: normal;
+	cursor: pointer;
+}
+/* 中屏大屏底部结束 */
+.back .icon-fanhuidingbu{/*  返回顶部  */
+	position: fixed;
+	bottom: 50px;
+	right: 10px;
+	font-size: 50px;
+	color: #ccc;
+}
+@media screen and (min-width:768px){
+	/* 导航栏开始 */
+	nav{
+		height: 80px;
+	}
+	.container{
+		margin: 0 auto;
+		width: 750px;
+		position: relative;
+		justify-content: space-between;
+	}
+	nav .icon-sousuo{
+		font-size: 16px;
+		position: absolute;
+		right: 175px;
+		cursor: pointer;
+		display: inline;
+	}
+	nav .icon-liebiao1{
+		display: none;
+	}
+	nav .list-game{
+		display: none;
+	}
+	nav .list-person{
+		display: inline;
+	}
+	nav .list-title span{
+		font-size: 16px;
+	}
+	nav .list-text{
+		font-size: 13px;
+		color: #333;
+		display:inline;
+	}
+	nav .list-text:nth-child(4){
+		color: #f60;
+	}
+	nav input{
+		width: 151px;
+		display: inline;
+		margin-left: 24px;
+	}
+	nav .list-title img{
+		width: 43px;
+		height: 45px;
+	}
+	/* 导航栏结束 */
+	/* 导图开始 */
+	.picture{
+		width: 100%;
+		height: 210px;
+		background: url('../img/game-product-mini-1x.jpg');
+		background-position: center top;
+   	 	background-size: auto 100%;
+	}
+	/* 导图结束 */
+	/* 小屏底部开始 */
+	.footer p:nth-child(6){
+		display: none;
+	}
+	.footer p span{
+		display: inline;
+	}
+	/* 小屏底部结束 */
+	.page .main ul li img{
+		width: 296px;
+		height: 160px;
+	}
+}
+@media screen and (min-width: 992px){
+	/* 导航栏结束 */
+	.container{
+		width: 970px;
+	}
+	nav .list-title span{
+		font-size: 20px;
+	}
+	nav .list-title img{
+		width: 55px;
+		height: 57px;
+	}
+	nav .list-text{
+		font-size: 16px;
+	}
+
+	nav .icon-sousuo{
+		position: absolute;
+		right: 200px;
+	}
+	
+	/* 导航栏开始 */
+	/* 导图开始 */
+	.picture{
+		width: 100%;
+		height: 210px;
+		background: url('../img/game-product-banner-1x.jpg');
+		background-position: center top;
+   	 	background-size: auto 100%;
+	}
+	/* 导图结束 */
+	/* 小屏底部开始 */
+	.footer{
+		display: none;
+	}
+	/* 小屏底部结束 */
+	.bottom{
+		display: block;
+	}
+}
+@media screen and (min-width: 1200px){
+	/* 导航栏开始 */
+	.container{
+		width: 1170px;
+		
+	}
+	nav input{
+		width: 301px;
+	}
+	nav .icon-sousuo{
+		position: absolute;
+		right: 225px;
+		z-index: 1;
+	}
+	/* 导航栏结束 */
+	/* 底部开始 */
+	.bottom .foot .left span{
+		display: inline;
+	}
+	.bottom .foot .left p:nth-child(4){
+		display: none;
+	}
+	.bottom .foot .left{
+		width: calc(100% - 415px);
+	}
+	.bottom .foot .right{
+		margin-left: 15px;
+	}
+	/* 底部结束 */
+	
+}
